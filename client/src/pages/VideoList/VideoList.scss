@@ -1,0 +1,11 @@
+@import "../../stylesheets/variables";
+
+.VideoList {
+  text-align: center;
+
+  .video-preview-list {
+    padding: 45px 0;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

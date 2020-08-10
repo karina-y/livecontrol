@@ -1,0 +1,38 @@
+//#region breakpoints
+//taken from bootstrap
+$breakpoint-xxs: "max-width: 350px";
+$breakpoint-xs: "max-width: 767px";
+$breakpoint-sm: "min-width: 768px";
+$breakpoint-md: "min-width: 992px";
+$breakpoint-lg: "min-width: 1280px";
+$breakpoint-xl: "min-width: 1440px";
+//#endregion
+
+//#region colors
+$white: #fff;
+$off-white: #f8fcff;
+$med-gray: #404e4d;
+
+$success: #45c6a5;
+$danger: #fe608b;
+$warning: #fec45f;
+$info: #8184f9;
+
+//theme colors (taken from the livecontrol logo)
+$brand-blue: #5191f7;
+$brand-red: #ff0000;
+$brand-navy: #0d1438;
+
+$nav-height: 60px;
+$mobile-nav-height: 60px;
+$footer-height: 90px;
+
+//#region fonts
+$font-xxs: 10px;
+$font-xs: 15px;
+$font-sm: 20px;
+$font-md: 30px;
+$font-lg: 40px;
+$font-xl: 50px;
+$font-xxl: 70px;
+//#endregion

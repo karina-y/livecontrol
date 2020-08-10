@@ -1,0 +1,115 @@
+@import "variables";
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $off-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $med-gray;
+  overflow-x: hidden;
+
+  #root {
+    height: 100%;
+  }
+
+  .App {
+    height: 100%;
+    padding-top: $nav-height;
+    padding-bottom: $footer-height;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .page-title {
+    font-size: $font-lg;
+    text-transform: capitalize;
+  }
+
+  //#region inputs, anchors, buttons
+  a,
+  input,
+  textarea,
+  select,
+  option {
+    &:focus,
+    &:active,
+    &:hover,
+    &:visited {
+      outline: none !important;
+    }
+  }
+
+  input,
+  textarea,
+  select {
+    color: $med-gray;
+    height: 40px;
+    font-size: $font-xs;
+    background-color: $white;
+    border: solid $med-gray 1px;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $brand-blue;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $med-gray;
+    }
+  }
+  //#endregion
+
+  //#region mobile
+  @media only screen and ($breakpoint-xs) {
+  }
+
+  @media only screen and ($breakpoint-sm) {
+  }
+
+  @media only screen and ($breakpoint-md) {
+  }
+
+  @media only screen and ($breakpoint-lg) {
+  }
+
+  @media only screen and ($breakpoint-xl) {
+  }
+  //#endregion
+}

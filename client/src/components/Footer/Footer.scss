@@ -1,0 +1,11 @@
+@import "../../stylesheets/variables.scss";
+
+.Footer {
+  height: $footer-height;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7fafc;
+  border-top: solid 1px $brand-blue;
+}

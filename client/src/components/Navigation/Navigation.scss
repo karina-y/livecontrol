@@ -1,0 +1,19 @@
+@import "../../stylesheets/variables.scss";
+
+.Navigation {
+  height: $nav-height;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  background: #f7fafc;
+  border-bottom: solid 1px $brand-blue;
+
+  a {
+    vertical-align: middle;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../stylesheets/variables";
+
+.VideoPlayer {
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  max-width: 100%;
+
+  .video {
+    margin-bottom: 20px;
+
+    &.fit {
+      max-width: 100%;
+    }
+  }
+
+  select {
+    width: 50%;
+  }
+
+  input {
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+
+  @media only screen and ($breakpoint-xs) {
+    .video {
+      max-width: 100%;
+    }
+  }
+}
